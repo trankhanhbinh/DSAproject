@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pac-Man</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Pac-Man</h1>
+    <h2 id="scoreDisplay">Score: 0</h2>
+    <div class="game-container">
+      <div class="lives-panel">
+        <h3>Lives</h3>
+        <div class="lives-display">
+          <span class="lives-count" id="livesCount">3</span>
+          <span>x</span>
+          <div class="hearts-container" id="heartsContainer"></div>
+        </div>
+      </div>
+      <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <!-- Màn hình Start Screen - Retro Style -->
+    <div id="playButton" class="retro-screen">
+      <div class="retro-content">
+        <h1 class="retro-title">PAC-MAN</h1>
+        <p class="press-start">PRESS START</p>
+        <button id="startButton" class="retro-button">START</button>
+      </div>
+    </div>
+
+    <!-- Màn hình Game Over - Retro Style -->
+    <div id="gameOverScreen" class="retro-screen">
+      <div class="retro-content">
+        <h1 class="retro-title game-over-title">GAME OVER</h1>
+        <p class="final-score">FINAL SCORE</p>
+        <p class="score-value"><span id="finalScore">0</span></p>
+        <button id="restartButton" class="retro-button">PLAY AGAIN</button>
+      </div>
+    </div>
+
+    <!-- Màn hình Chiến Thắng - Retro Style -->
+    <div id="victoryScreen" class="retro-screen">
+      <div class="retro-content">
+        <h1 class="retro-title victory-title">VICTORY!</h1>
+        <p class="final-score">FINAL SCORE</p>
+        <p class="score-value"><span id="victoryScore">0</span></p>
+        <button id="victoryRestartButton" class="retro-button">PLAY AGAIN</button>
+      </div>
+    </div>
+
+    <!-- LOAD THEO THỨ TỰ NÀY -->
+    <script src="js/Map/Map.js"></script>
+    <script src="js/Global.js"></script>
+    <script src="js/GridUtils.js"></script>
+    <script src="js/Pacman.js"></script>
+    <script src="js/Ghosts/GhostAI.js"></script>
+    <script src="js/Ghosts/Ghosts.js"></script>
+    <script src="js/GhostTimer.js"></script>
+    <script src="js/Game.js"></script>
+  </body>
+</html>
