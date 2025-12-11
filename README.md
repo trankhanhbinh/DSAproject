@@ -1,5 +1,12 @@
 # IT013IU Algorithms & Data Structures project
 
+| No. | Student Name | Student ID | Contribution |
+|-----|---------------------|-------------|--------------|
+| 1 | Nguyễn Việt Thảo | ITCSIU23058 | 25% |
+| 2 | Huỳnh Khắc Tấn Minh | ITITWE23038 | 25% |
+| 3 | Trần Khánh Bình | ITCSIU24015 | 25% |
+| 4 | Phan Minh Khánh | ITITWE23020 | 25% |
+
 
 ## PACMAN - A Pacman-inspired game
 This project is a simple Pacman-style game, showcasing object-oriented design, data structures, ghost AI behaviors, and console-based rendering.
